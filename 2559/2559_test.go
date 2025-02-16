@@ -1,6 +1,7 @@
 package main
 
 import (
+
 	"fmt"
 	"testing"
 )
@@ -90,7 +91,3 @@ func TestProductOfNumbers_GetProduct(t *testing.T) {
 		})
 	}
 }
-// ["ProductOfNumbers","add","add","add","add","add","getProduct","getProduct","getProduct","add","getProduct"]
-// [[],[,[2],[3],[4],,[2]]
-
-

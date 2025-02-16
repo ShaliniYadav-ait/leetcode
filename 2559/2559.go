@@ -43,5 +43,5 @@ func (this *ProductOfNumbers) GetProduct(k int) int {
 	if first-1 >= 0 && this.Nums[first-1] > 0 {
 		prodK = this.Nums[last] / this.Nums[first-1]
 	}
-	return prodK
+  return prodK
 }
