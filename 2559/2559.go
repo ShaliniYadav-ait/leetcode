@@ -25,7 +25,7 @@ func (this *ProductOfNumbers) Add(num int) {
 			lastProd = 1
 		} 
 	}
-	currProd := lastProd * num
+	currProd := lastProd * num 
 	this.Nums = append(this.Nums, currProd)
 }
 
