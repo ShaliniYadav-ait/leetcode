@@ -7,7 +7,7 @@ import (
 
 func Test_constructDistancedSequence(t *testing.T) {
 	type args struct {
-		n int
+		n int 
 	}
 	tests := []struct {
 		name string

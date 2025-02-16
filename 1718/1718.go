@@ -38,5 +38,5 @@ func backtracking(index int, result []int, isUsed []bool, n int) bool {
 			result[index+num] = 0
 		}
 	}
-	return false
+	return false 
 }
