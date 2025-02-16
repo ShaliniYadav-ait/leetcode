@@ -8,7 +8,7 @@ func Test_minOperations(t *testing.T) {
 		k    int
 	}
 	tests := []struct {
-		name string
+		name string 
 		args args
 		want int
 	}{
