@@ -25,6 +25,14 @@ func Test_waysToSplitArray(t *testing.T) {
 			},
 			want: 2,
 		},
+
+		{
+			name: "third",
+			args: args{
+				nums: []int{0,0},
+			},
+			want: 1,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
