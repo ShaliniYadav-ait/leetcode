@@ -10,7 +10,7 @@ type MinHeap struct {
 func (h MinHeap) Len() int {
 	return len(h.Nums)
 }
-
+ 
 func (h MinHeap) Less(i,j int) bool{
 	return h.Nums[i] < h.Nums[j]
 }
