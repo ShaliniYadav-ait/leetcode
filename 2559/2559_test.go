@@ -7,7 +7,7 @@ import (
 )
 var zeroMap = make(map[int][]int)
 func TestProductOfNumbers_Add(t *testing.T) {
-	type fields struct {
+	type fields struct { 
 		Nums []int
 		Zero map[int][]int
 	}
