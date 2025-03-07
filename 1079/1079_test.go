@@ -12,7 +12,7 @@ func Test_numTilePossibilities(t *testing.T) {
 		want int
 	}{
 		{
-			name : "first",
+			name : "first test",
 			args : args{
 				tiles : "AAB",
 			},
